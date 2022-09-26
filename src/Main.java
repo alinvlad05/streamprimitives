@@ -305,9 +305,9 @@ class Main{
 
         //map=be associated with or linked to (an equivalent group).
         //The final way to create a primitive stream is by mapping from another stream type.
-        //Table 4.6 shows that there is a method for mapping between any stream types.;
+        //Table shows that there is a method for mapping between any stream types.;
 
-        //Table 4.6 Mapping methods between types of streams
+        //Table Mapping methods between types of streams
 
         //Source Stream Class       To Create Stream       To Create DoubleStream      To Create IntStream     To Create LongStream
         
@@ -441,10 +441,10 @@ class Main{
         //The function returns an int. The function mappings are intuitive here.
         //They take the source type and return the target type.
         //In this example, the actual function type is ToIntFunction.
-        //Table 4.7 shows the mapping function names.
+        //Table shows the mapping function names.
         //As you can see, they do what you might expect.
 
-        //Table 4.7 Function parameters when mapping between types of streams
+        //Table Function parameters when mapping between types of streams
 
         //Source Stream Class     To Create Stream       To Create DoubleStream     To Create IntStream    To Create LongStream
 
@@ -454,12 +454,11 @@ class Main{
         //LongStream              LongFunction           LongToDoubleFunction       LongToIntFunction      LongUnaryOperator
 
         //pattern=a repeated decorative design.
-        //You do have to memorize Table 4.6 and Table 4.7. It's not as hard as it might seem.
         //There are patterns in the names if you remember a few rules.
-        //For Table 4.6, mapping to the same type you started with is just called map().
+        //For Tabl, mapping to the same type you started with is just called map().
         //When returning an object stream, the method is mapToObj().
         //Beyond that, it's the name of the primitive type in the map method name.
-        //For Table 4.7, you can start by thinking about the source and target types.
+        //For Table, you can start by thinking about the source and target types.
         //When the target type is an object, you drop the To from the name.
         //When the mapping is to the same type you started with, you use a unary operator instead of a function for the primitive streams.
         //You can also create a primitive stream from a Stream using flatMapToInt(), flatMapToDouble(), or flatMapToLong().
