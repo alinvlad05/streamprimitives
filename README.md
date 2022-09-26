@@ -1,13 +1,13 @@
 # streamprimitives
 
-Check src/Main.java in github.
+Check src/Main.java in github.<br/>
 
-Here are three types of primitive streams:
-IntStream: Used for the primitive types int, short, byte, and char
-LongStream: Used for the primitive type long
-DoubleStream: Used for the primitive types double and float
+Here are three types of primitive streams:<br/>
+IntStream: Used for the primitive types int, short, byte, and char<br/>
+LongStream: Used for the primitive type long<br/>
+DoubleStream: Used for the primitive types double and float<br/>
  
-Mapping methods between types of streams
+Mapping methods between types of streams<br/>
 
 | Source Stream Class  | To Create Stream | To Create DoubleStream |  To Create IntStream  | To Create LongStream |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -17,7 +17,7 @@ Mapping methods between types of streams
 | LongStream   | mapToObj  | mapToDouble  | mapToInt  | map  |
                                                 
 
-Function parameters when mapping between types of streams 
+Function parameters when mapping between types of streams <br/>
 
 | Source Stream Class   | To Create Stream | To Create DoubleStream | To Create IntStream | To Create LongStream |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
