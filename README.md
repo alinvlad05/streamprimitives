@@ -7,7 +7,7 @@ IntStream: Used for the primitive types int, short, byte, and char
 LongStream: Used for the primitive type long
 DoubleStream: Used for the primitive types double and float
  
-//Mapping methods between types of streams
+Mapping methods between types of streams
 
 | Source Stream Class  | To Create Stream | To Create DoubleStream |  To Create IntStream  | To Create LongStream |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -17,7 +17,7 @@ DoubleStream: Used for the primitive types double and float
 | LongStream   | mapToObj  | mapToDouble  | mapToInt  | map  |
                                                 
 
-//Function parameters when mapping between types of streams 
+Function parameters when mapping between types of streams 
 
 | Source Stream Class   | To Create Stream | To Create DoubleStream | To Create IntStream | To Create LongStream |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
