@@ -1,6 +1,6 @@
 # streamprimitives
 
-Check src/main.java
+Check src/Main.java in github.
 
 Here are three types of primitive streams:
 IntStream: Used for the primitive types int, short, byte, and char
